@@ -1,0 +1,17 @@
+// 1. buildscript MUST be at the very top
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Essential for Firebase to communicate with your app
+        classpath 'com.google.gms:google-services:4.4.1'
+    }
+}
+
+// 2. plugins block comes after buildscript
+plugins {
+    alias(libs.plugins.android.application) apply false
+    id 'com.android.library' version '8.2.0' apply false
+}

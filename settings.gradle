@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    // PREFER_SETTINGS ensures these repositories are checked first
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        // PayHere native files are often served from JitPack
+        maven { url "https://jitpack.io" }
+    }
+}
+
+rootProject.name = "TravelRaApp"
+include ':app'

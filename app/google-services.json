@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156208406455",
+    "project_id": "travelraapp",
+    "storage_bucket": "travelraapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156208406455:android:9fdfd36fbf666d1ac01232",
+        "android_client_info": {
+          "package_name": "com.jiat.travelraapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpAz4u7zoHsVmH3niA44ug3xrGPFjbREA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
