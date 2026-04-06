@@ -13,7 +13,7 @@ A mobile application for taxi booking and tour exploration in Sri Lanka.
 - Firebase
 
 ## Demo Video
-(Add your video link here)
+(https://f0jr1mbayqtphb2i.public.blob.vercel-storage.com/WhatsApp%20Video%202026-04-06%20at%2018.35.45.mp4)
 
 ## Author
 Rashmi Tharuka
